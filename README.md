@@ -6,7 +6,7 @@ Welcome to **DreamLabs Production**! 🚀
 ## About Us
 
 **DreamLabs Production** is a virtual company founded by **Laurens Vidan** and **Valentin Köberl** as part of the Media Technology course at **HTL 3 Rennweg**. 
-In this course, we focus on **web technologies**, particularly **Vue.js** and **JavaScript**. 💻
+In this course, we focus on **web technologies**, particularly **HTML5** and **PHP**. 💻
 
 ## Projects
 
@@ -31,7 +31,7 @@ Willkommen bei **DreamLabs Production**! 🚀
 ## Über uns
 
 **DreamLabs Production** ist ein virtuelles Unternehmen, gegründet von **Laurens Vidan** und **Valentin Köberl** im Rahmen des Medientechnik Unterrichts an der **HTL 3 Rennweg**. 
-In diesem Fach konzentrieren wir uns auf **Webtechnologien**, insbesondere **Vue.js** und **JavaScript**. 💻
+In diesem Fach konzentrieren wir uns auf **Webtechnologien**, insbesondere **HTML5** und **PHP**. 💻
 
 ## Projekte
 
