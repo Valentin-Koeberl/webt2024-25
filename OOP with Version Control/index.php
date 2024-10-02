@@ -9,9 +9,13 @@ interface IVideo{
 
 //User story 6
 abstract class video implements IVideo{
-    private $name;
-    private $source;
-    private $code;
+    protected $name;
+    protected $source;
+
+    function __construct($name,$source){
+        $this->name=$name;
+        $this->source=$source;
+    }
 
     function getName()
     {
@@ -21,12 +25,24 @@ abstract class video implements IVideo{
     {
         return $this->source;
     }
-    function getCode()
-    {
-        return $this->code;
-    }
+
+    abstract public function getCode();
 }
 
 class YouVideo extends video {
 
+    public function getCode()
+    {
+        return '<iframe width="308" height="173" src="https://www.youtube.com/embed/'. $this->source
+            . '"frameborder="0" allowfullscreen></iframe>';
+    }
+}
+
+class Vimeo extends video{
+
+    public function getCode()
+    {
+        return '<iframe src="https://player.vimeo.com/video/' . $this->source
+            . '" width="308" height="173" frameborder="0" allowfullscreen></iframe>';
+    }
 }
