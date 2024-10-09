@@ -19,7 +19,7 @@ abstract class video implements IVideo{
 
     function getName()
     {
-        return $this->name;
+        return '<p class="title">'.$this->name.'</p><p class="source">Youtube</p>';
     }
     function getSource()
     {
