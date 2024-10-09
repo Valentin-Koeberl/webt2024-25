@@ -1,7 +1,4 @@
-<?php
-include 'index.php';
-
-?>
+<?php require './index.php';?>
 
 <!DOCTYPE html>
 <html lang="de">
@@ -206,28 +203,43 @@ include 'index.php';
     <h3>💻 Technic</h3>
     <div class="iframe-container">
         <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/GDlkCkcIqTs?si=BJW-g-9n_a2GxFN-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">IPhone 16 Trailer</p><p class="source">YouTube</p>
+            <?php
+            $ya=new YouVideo('IPhone 16 Trailer', "GDlkCkcIqTs?si=BJW-g-9n_a2GxFN-");
+            echo $ya->getCode();
+            echo $ya->getName();
+            ?>
         </div>
 
         <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/eDqfg_LexCQ?si=42VNMq2Flbjms_JV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">IPhone 16 Pro Trailer</p><p class="source">YouTube</p>
+            <?php
+            $ya=new YouVideo('IPhone 16 Pro Trailer', "eDqfg_LexCQ?si=42VNMq2Flbjms_JV");
+            echo $ya->getCode();
+            echo $ya->getName();
+            ?>
         </div>
 
         <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/e6T34u51MaA?si=eDGB5_H7pGao_8R5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">Apple Watch Series 10 Trailer</p><p class="source">YouTube</p>
+            <?php
+            $ya=new YouVideo('Apple Watch Series 10 Trailer', "e6T34u51MaA?si=eDGB5_H7pGao_8R5");
+            echo $ya->getCode();
+            echo $ya->getName();
+            ?>
         </div>
 
         <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/LtIWE4CCX5M?si=vyYBBC0bKEAwj9zT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">18 Things you missed at WWDC24</p><p class="source">YouTube</p>
+            <?php
+            $ya=new YouVideo('18 Things you missed at WWDC24', "LtIWE4CCX5M?si=vyYBBC0bKEAwj9zT");
+            echo $ya->getCode();
+            echo $ya->getName();
+            ?>
         </div>
 
         <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/IY4x85zqoJM?si=HBqyme0TIbZL-vjr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">Apple Vision Pro Trailer</p><p class="source">YouTube</p>
+            <?php
+            $ya=new YouVideo('Apple Vision Pro Trailer', "IY4x85zqoJM?si=HBqyme0TIbZL-vj");
+            echo $ya->getCode();
+            echo $ya->getName();
+            ?>
         </div>
     </div>
 </section>
@@ -239,6 +251,9 @@ include 'index.php';
             <iframe width="308" height="173" src="https://www.youtube.com/embed/Mk1DRQkObHc?si=Lczy3yzgfmtvvpH6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <p class="title">I changed my health in 1 month</p><p class="source">YouTube</p>
         </div>
+        <div class="iframe-item" style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/952618012?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+        frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="BURDEN"></iframe></div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
 
         <div class="iframe-item">
             <iframe width="308" height="173" src="https://www.youtube.com/embed/nPAnPpgo8mU?si=1dLMOT0_25Ny6SdZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -326,28 +341,43 @@ include 'index.php';
     <h3>🍿 Entertainment</h3>
     <div class="iframe-container">
         <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/Tkwk41WwHKM?si=-RjxDPXjYeVOiR7m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">Squid Game 2 Trailer</p><p class="source">YouTube</p>
+            <?php
+            $ya=new YouVideo('Squid Game 2', "1GqzyjUbT4c?si=cmqO1QiMF4CKe8o6");
+            echo $ya->getCode();
+            echo $ya->getName();
+            ?>
         </div>
 
         <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/DoXq3XlJlKA?si=g5Pw5vYMCW_-RvGl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">A Minecraft Movie Trailer</p><p class="source">YouTube</p>
+            <?php
+            $ya=new YouVideo('Minecraft', "DoXq3XlJlKA?si=g5Pw5vYMCW_-RvGl");
+            echo $ya->getCode();
+            echo $ya->getName();
+            ?>
         </div>
 
         <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/Zu80Gz4fdwA?si=VBKf6S3DIyb-qYzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">Joker 2 Trailer</p><p class="source">YouTube</p>
+            <?php
+            $ya=new YouVideo('Joker 2', "Zu80Gz4fdwA?si=VBKf6S3DIyb-qYzg");
+            echo $ya->getCode();
+            echo $ya->getName();
+            ?>
         </div>
 
         <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/LL9-TAFmwc0?si=FfO5xf-VtgM9Q6R-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">Despicable Me 4 Trailer</p><p class="source">YouTube</p>
+            <?php
+            $ya=new YouVideo('Despicable 4', "LL9-TAFmwc0?si=FfO5xf-VtgM9Q6R-");
+            echo $ya->getCode();
+            echo $ya->getName();
+            ?>
         </div>
 
         <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/sV9b7lsULoQ?si=Xg0Z251DKLJopK8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">Ninjago Movie Trailer</p><p class="source">YouTube</p>
+            <?php
+            $ya=new YouVideo('Ninjago Movie Trailer', "sV9b7lsULoQ?si=Xg0Z251DKLJopK8M");
+            echo $ya->getCode();
+            echo $ya->getName();
+            ?>
         </div>
     </div>
 </section>
