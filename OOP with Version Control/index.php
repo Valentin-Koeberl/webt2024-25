@@ -19,7 +19,7 @@ abstract class video implements IVideo{
 
     function getName()
     {
-        return '<p class="title">'.$this->name.'</p><p class="source">Youtube</p>';
+        return '<p class="title">'.$this->name.'</p><p class="source">Unknown</p>';
     }
     function getSource()
     {
@@ -36,6 +36,10 @@ class YouVideo extends video {
         return '<iframe width="308" height="173" src="https://www.youtube.com/embed/'. $this->source
             . '"frameborder="0" allowfullscreen></iframe>';
     }
+
+    function getName() {
+        return '<p class="title">'.$this->name.'</p><p class="source">YouTube</p>';
+    }
 }
 
 class Vimeo extends video{
@@ -44,5 +48,9 @@ class Vimeo extends video{
     {
         return '<iframe src="https://player.vimeo.com/video/' . $this->source
             . '" width="308" height="173" frameborder="0" allowfullscreen></iframe>';
+    }
+
+    function getName() {
+        return '<p class="title">'.$this->name.'</p><p class="source">Vimeo</p>';
     }
 }
