@@ -248,31 +248,43 @@
     <h3>🏃‍➡️Health</h3>
     <div class="iframe-container">
         <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/Mk1DRQkObHc?si=Lczy3yzgfmtvvpH6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">I changed my health in 1 month</p><p class="source">YouTube</p>
-        </div>
-        <div class="iframe-item" style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/952618012?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-        frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="BURDEN"></iframe></div>
-        <script src="https://player.vimeo.com/api/player.js"></script>
-
-        <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/nPAnPpgo8mU?si=1dLMOT0_25Ny6SdZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">How to be Healthy in Mind & Body</p><p class="source">YouTube</p>
+            <?php
+                $va=new Vimeo('Song','952618012?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479');
+                echo $va->getCode();
+                echo $va->getName();
+            ?>
         </div>
 
         <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/E3QpXj_QOqQ?si=pUWJNACyZ8s30aMG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">The science of gut health</p><p class="source">YouTube</p>
+            <?php
+            $va=new Vimeo('Song','1017378873?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479');
+            echo $va->getCode();
+            echo $va->getName();
+            ?>
         </div>
 
         <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/K4Ze-Sp6aUE?si=zefMC9hjX2BLv92G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">The science of Eating</p><p class="source">YouTube</p>
+            <?php
+            $va=new Vimeo('Song','1017378873?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479');
+            echo $va->getCode();
+            echo $va->getName();
+            ?>
         </div>
 
         <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/wCXYST7y3-E?si=l4blDi_XJ7dOlIWv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">100 days Body Transformation</p><p class="source">YouTube</p>
+            <?php
+            $va=new Vimeo('Song','1017378873?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479');
+            echo $va->getCode();
+            echo $va->getName();
+            ?>
+        </div>
+
+        <div class="iframe-item">
+            <?php
+            $va=new Vimeo('Song','1017378873?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479');
+            echo $va->getCode();
+            echo $va->getName();
+            ?>
         </div>
     </div>
 </section>
@@ -281,28 +293,43 @@
     <h3>📖 Journeys</h3>
     <div class="iframe-container">
         <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/oSoVE0M3OAg?si=2q-nC4ipYewBmp03" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">Ich reise für 0€ quer durch Europa</p><p class="source">YouTube</p>
+            <?php
+            $va=new Vimeo('Song','1017378873?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479');
+            echo $va->getCode();
+            echo $va->getName();
+            ?>
         </div>
 
         <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/T7x85rtZsB4?si=O8zDcyzkqOGMGP-B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">Ich reise alleine in ein zufälliges Land</p><p class="source">YouTube</p>
+            <?php
+            $va=new Vimeo('Song','1017378873?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479');
+            echo $va->getCode();
+            echo $va->getName();
+            ?>
         </div>
 
         <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/fv1mXOJh5zk?si=9OM57MpDmOn7FC3y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">Ich reise vorerst nicht mehr alleine</p><p class="source">YouTube</p>
+            <?php
+            $va=new Vimeo('Song','1017378873?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479');
+            echo $va->getCode();
+            echo $va->getName();
+            ?>
         </div>
 
         <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/yHS3_uKG1IM?si=M038WmPT9dS5laQF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">Südafrika: Kapstadt, Safari und mehr</p><p class="source">YouTube</p>
+            <?php
+            $va=new Vimeo('Song','1017378873?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479');
+            echo $va->getCode();
+            echo $va->getName();
+            ?>
         </div>
 
         <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/w0ok2w0fg_I?si=LA-Y8v75NoqJkFDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">Sommer in den italienischen Alpen</p><p class="source">YouTube</p>
+            <?php
+            $va=new Vimeo('Song','1017378873?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479');
+            echo $va->getCode();
+            echo $va->getName();
+            ?>
         </div>
     </div>
 </section>
@@ -311,28 +338,43 @@
     <h3>🧑‍🍳 Cooking</h3>
     <div class="iframe-container">
         <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/JuWIuU4-Gz0?si=K231TVcHfc9XoWUO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">1 Tag nur das schwerste Essen kochen</p><p class="source">YouTube</p>
+            <?php
+            $va=new Vimeo('Song','952618012?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479');
+            echo $va->getCode();
+            echo $va->getName();
+            ?>
         </div>
 
         <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/AcJmTtP4R48?si=sMRFsiW1rvgEx-Xn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">Vermeide diese drei Fehler</p><p class="source">YouTube</p>
+            <?php
+            $va=new Vimeo('Song','952618012?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479');
+            echo $va->getCode();
+            echo $va->getName();
+            ?>
         </div>
 
         <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/4iFJNBMkBVY?si=oErTC6_dYZiV-Uqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">So schmecht Essen in London</p><p class="source">YouTube</p>
+            <?php
+            $va=new Vimeo('Song','952618012?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479');
+            echo $va->getCode();
+            echo $va->getName();
+            ?>
         </div>
 
         <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/j5rw-4CJmTY?si=ler-8drAUZy1t4kz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">XXL Foodtour durch Berlin</p><p class="source">YouTube</p>
+            <?php
+            $va=new Vimeo('Song','952618012?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479');
+            echo $va->getCode();
+            echo $va->getName();
+            ?>
         </div>
 
         <div class="iframe-item">
-            <iframe width="308" height="173" src="https://www.youtube.com/embed/khbCNFrpGP8?si=_8pXpvjywyIyLY9L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="title">Die viralsten Foodspots in NY testen</p><p class="source">YouTube</p>
+            <?php
+            $va=new Vimeo('Song','952618012?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479');
+            echo $va->getCode();
+            echo $va->getName();
+            ?>
         </div>
     </div>
 </section>
