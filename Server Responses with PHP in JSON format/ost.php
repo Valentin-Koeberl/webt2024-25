@@ -8,13 +8,15 @@ class OST {
     private $videoGameName;
     private $releaseYear;
     private $trackList;
+    private array $songs;
 
-    public function __construct($id, $name, $videoGameName, $releaseYear) {
+
+    public function __construct($id, $name, $videoGameName, $releaseYear, array $trackList) {
         $this->id = $id;
         $this->name = $name;
         $this->videoGameName = $videoGameName;
         $this->releaseYear = $releaseYear;
-        $this->trackList = [];
+        $this->trackList = $trackList;
     }
 
     public function addSong(Song $song) {
