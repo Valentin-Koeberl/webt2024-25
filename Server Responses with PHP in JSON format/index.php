@@ -1,71 +1,30 @@
 <?php
 
-class Song {
-    private $id;
-    private $name;
-    private $artist;
-    private $trackNumber;
-    private $duration; // Duration in seconds
+require_once 'ost.php';
 
-    public function __construct($id, $name, $artist, $trackNumber, $duration) {
-        $this->id = $id;
-        $this->name = $name;
-        $this->artist = $artist;
-        $this->trackNumber = $trackNumber;
-        $this->duration = $duration;
-    }
+// Beispiel-Daten
+$ost1 = new OST(1, "The Legend of Zelda: Ocarina of Time OST", "The Legend of Zelda: Ocarina of Time", 1998);
+$ost1->addSong(new Song(1, "Main Theme", "Koji Kondo", 1, 120));
+$ost1->addSong(new Song(2, "Zelda's Lullaby", "Koji Kondo", 2, 90));
 
-    public function toArray() {
-        return [
-            'id' => $this->id,
-            'name' => $this->name,
-            'artist' => $this->artist,
-            'track_number' => $this->trackNumber,
-            'duration' => $this->duration,
-        ];
-    }
-}
+$ost2 = new OST(2, "Final Fantasy VII OST", "Final Fantasy VII", 1997);
+$ost2->addSong(new Song(1, "Opening - Bombing Mission", "Nobuo Uematsu", 1, 162));
+$ost2->addSong(new Song(2, "Aerith's Theme", "Nobuo Uematsu", 2, 240));
 
-class OST {
-    private $id;
-    private $name;
-    private $videoGameName;
-    private $releaseYear;
-    private $trackList;
+$ost_list = [$ost1, $ost2];
 
-    public function __construct($id, $name, $videoGameName, $releaseYear) {
-        $this->id = $id;
-        $this->name = $name;
-        $this->videoGameName = $videoGameName;
-        $this->releaseYear = $releaseYear;
-        $this->trackList = [];
-    }
+// GET-Parameter abrufen
+$id = isset($_GET['id']) ? intval($_GET['id']) : 0;
 
-    public function addSong(Song $song) {
-        $this->trackList[] = $song;
-    }
-
-    public function toArray() {
-        $tracks = array_map(function($song) {
-            return $song->toArray();
-        }, $this->trackList);
-
-        return [
-            'id' => $this->id,
-            'name' => $this->name,
-            'video_game_name' => $this->videoGameName,
-            'release_year' => $this->releaseYear,
-            'track_list' => $tracks,
-        ];
-    }
-}
-
-// Example Usage
-$ost = new OST(1, "The Legend of Zelda: Ocarina of Time OST", "The Legend of Zelda: Ocarina of Time", 1998);
-$ost->addSong(new Song(1, "Main Theme", "Koji Kondo", 1, 120));
-$ost->addSong(new Song(2, "Zelda's Lullaby", "Koji Kondo", 2, 90));
-
-// Output the OST in JSON format
+// JSON-Antwort generieren
 header('Content-Type: application/json');
-echo json_encode($ost->toArray());
+
+foreach ($ost_list as $ost) {
+    if ($ost->toArray()['id'] == $id) {
+        echo json_encode($ost->toArray());
+        exit;
+    }
+}
+
+echo json_encode(['error' => 'OST not found']);
 ?>
