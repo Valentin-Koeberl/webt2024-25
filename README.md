@@ -12,7 +12,8 @@ In this course, we focus on **web technologies**, particularly **HTML5** and **P
 
 Here are some of our exciting projects:
 
-- 📹DreamLabs+: A video platform web interface developed with PHP and JavaScript 🟧
+- 📹DreamLabs+: A video platform web interface developed with PHP and JavaScript 🟩
+- JUnit Tests: Basic Tests with JUnit 🟩
 
 
 🟩 Development finished
@@ -37,7 +38,8 @@ In diesem Fach konzentrieren wir uns auf **Webtechnologien**, insbesondere **HTM
 
 Hier sind einige unserer spannenden Projekte:
 
-- 📹DreamLabs+: Ein Videoplattform Web-Interface für den Start mit Php und JavaScript 🟧
+- 📹DreamLabs+: Ein Videoplattform Web-Interface für den Start mit Php und JavaScript 🟩
+- JUnit Tests: Einfache Tests mit JUNIT 🟩
 
 
 🟩 Entwicklung abgeschlossen
