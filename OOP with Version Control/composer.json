@@ -1,0 +1,20 @@
+{
+    "name": "dreamlabs/oop_with_version_control",
+    "description": "EIn Beispielprojekt für PHPUnit Tests",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^11.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dreamlabs\\OopWithVersionControl\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Valentin Köberl",
+            "email": "valentin.koeberl@htl.rennweg.at"
+        }
+    ],
+    "minimum-stability": "stable"
+}
