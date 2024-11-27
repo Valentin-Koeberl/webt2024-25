@@ -2,7 +2,7 @@
 
 require_once 'song.php';
 
-class OST {
+class OST implements JsonSerializable{
     private $id;
     private $name;
     private $videoGameName;
@@ -23,17 +23,16 @@ class OST {
         $this->trackList[] = $song;
     }
 
-    public function toArray() {
-        $tracks = array_map(function($song) {
-            return $song->toArray();
-        }, $this->trackList);
 
+
+    public function jsonSerialize(): mixed
+    {
         return [
-            'id' => $this->id,
+        'id' => $this->id,
             'name' => $this->name,
             'video_game_name' => $this->videoGameName,
             'release_year' => $this->releaseYear,
-            'track_list' => $tracks,
+            'track_list' => $this->trackList
         ];
     }
 }

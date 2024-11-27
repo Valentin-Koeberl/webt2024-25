@@ -5,7 +5,4 @@ require_once 'seeder.php';
 
 $data = Seeder::getData();
 
-
-foreach ($data as $ost) {
-    print_r( $ost);
-}
+echo json_encode($data, JSON_PRETTY_PRINT);
