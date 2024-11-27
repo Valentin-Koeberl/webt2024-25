@@ -3,8 +3,9 @@
 require_once 'ost.php';
 require_once 'seeder.php';
 
-$data = new Seeder();
+$data = Seeder::getData();
+
 
 foreach ($data as $ost) {
-    echo $ost;
+    print_r( $ost);
 }
