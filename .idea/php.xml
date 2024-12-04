@@ -10,6 +10,37 @@
     <option name="highlightLevel" value="WARNING" />
     <option name="transferred" value="true" />
   </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/composer" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/OOP with Version Control/vendor/nikic/php-parser" />
+    </include_path>
+  </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2">
     <option name="suggestChangeDefaultLanguageLevel" value="false" />
   </component>
