@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PHPUnit">
+    <option name="directories">
+      <list>
+        <option value="C:\xampp\htdocs\WEBTECH\tests" />
+        <option value="$PROJECT_DIR$/OOP with Version Control/tests" />
+      </list>
+    </option>
+  </component>
+</project>

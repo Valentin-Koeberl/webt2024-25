@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-require_once  '../index.php';
+require  'index.php';
 
 class VideoTest extends TestCase
 {
