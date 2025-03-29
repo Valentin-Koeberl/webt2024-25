@@ -3,7 +3,7 @@
         'name' => 'dreamlabs/oop_with_version_control',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'd12ae784fcbcdf37efecc05703a933a1bf944cf6',
+        'reference' => '298ea554d2e5851681812812c53744e96b944b53',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'dreamlabs/oop_with_version_control' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'd12ae784fcbcdf37efecc05703a933a1bf944cf6',
+            'reference' => '298ea554d2e5851681812812c53744e96b944b53',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -54,6 +54,15 @@
             'install_path' => __DIR__ . '/../phar-io/version',
             'aliases' => array(),
             'dev_requirement' => false,
+        ),
+        'php-debug/debugger' => array(
+            'pretty_version' => 'v0.1.0',
+            'version' => '0.1.0.0',
+            'reference' => '56f4d1403c5fb49d5be3c1257e82342f17a13aab',
+            'type' => 'php-extension',
+            'install_path' => __DIR__ . '/../php-debug/debugger',
+            'aliases' => array(),
+            'dev_requirement' => true,
         ),
         'phpunit/php-code-coverage' => array(
             'pretty_version' => '11.0.7',

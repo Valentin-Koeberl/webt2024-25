@@ -16,5 +16,8 @@
             "email": "valentin.koeberl@htl.rennweg.at"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "require-dev": {
+        "php-debug/debugger": "^0.1.0"
+    }
 }

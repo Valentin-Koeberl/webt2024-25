@@ -249,6 +249,53 @@
             "install-path": "../phar-io/version"
         },
         {
+            "name": "php-debug/debugger",
+            "version": "v0.1.0",
+            "version_normalized": "0.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yuncopy/debugger.git",
+                "reference": "56f4d1403c5fb49d5be3c1257e82342f17a13aab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yuncopy/debugger/zipball/56f4d1403c5fb49d5be3c1257e82342f17a13aab",
+                "reference": "56f4d1403c5fb49d5be3c1257e82342f17a13aab",
+                "shasum": ""
+            },
+            "time": "2019-02-20T08:23:07+00:00",
+            "type": "php-extension",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Debugger\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ajay",
+                    "email": "yuncopy@sina.com"
+                }
+            ],
+            "description": "The debugger  for the wzphp framework",
+            "keywords": [
+                "debugger",
+                "framework",
+                "redis",
+                "wzphp"
+            ],
+            "support": {
+                "forum": "https://github.com/yuncopy",
+                "issues": "https://github.com/yuncopy/debugger/issues",
+                "source": "https://github.com/yuncopy/debugger"
+            },
+            "install-path": "../php-debug/debugger"
+        },
+        {
             "name": "phpunit/php-code-coverage",
             "version": "11.0.7",
             "version_normalized": "11.0.7.0",
@@ -1712,5 +1759,7 @@
         }
     ],
     "dev": true,
-    "dev-package-names": []
+    "dev-package-names": [
+        "php-debug/debugger"
+    ]
 }

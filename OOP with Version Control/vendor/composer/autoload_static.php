@@ -20,6 +20,7 @@ class ComposerStaticInit51b56a1a7a66bc8e89ab56c5357822d8
         array (
             'Dreamlabs\\OopWithVersionControl\\' => 32,
             'DeepCopy\\' => 9,
+            'Debugger\\' => 9,
         ),
     );
 
@@ -35,6 +36,10 @@ class ComposerStaticInit51b56a1a7a66bc8e89ab56c5357822d8
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
+        ),
+        'Debugger\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-debug/debugger/src',
         ),
     );
 
